@@ -5,11 +5,11 @@ module.exports = {
   defaultNetwork: "rinkeby",
   networks: {
     hardhat: {
-      chainId: 1337
+      chainId: 2330
     },
     goerli: {
-      url: `https://eth-goerli.g.alchemy.com/v2/Hub7WA0EjWQUqQ152sA6ddSttGDttZ2n`,
-      accounts: ['91db051d3a75d3a34564b2a4712882d2193903d9c33e101bedf053ea3c290d6f'],
+      url: `https://rpc0.altcoinchain.org/rpc`,
+      accounts: ['0xB52eF8FF876110783511D413c3343bB5ff1D77d1'],
     }
   },
   solidity: {
